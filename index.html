@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <!--        MAIN LOGO        -->
+      <div class="logo">Navbar</div>
+      <!--        NAV LINKS        -->
+      <ul class="nav-links">
+        <li data-tooltip="Home">
+          <a href="#"
+            ><img
+              src="home_30dp_434343_FILL1_wght400_GRAD0_opsz40.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+          </a>
+        </li>
+        <li data-tooltip="About">
+          <a href="#"
+            ><img
+              src="info_30dp_434343_FILL1_wght400_GRAD0_opsz24.png"
+              alt=""
+              width="30px"
+              height="30px"
+          /></a>
+        </li>
+
+        <li data-tooltip="Contact">
+          <a href="#"
+            ><img
+              src="call_30dp_434343_FILL1_wght400_GRAD0_opsz24.png"
+              alt=""
+              width="30px"
+              height="30px"
+          /></a>
+        </li>
+        <hr />
+        <!--     DROPDOWN  MENU     -->
+        <li class="dropdown" data-tooltip="Services">
+          <a href="#" class="dropbtn"
+            ><span
+              ><img
+                src="construction_30dp_434343_FILL1_wght400_GRAD0_opsz24.png"
+                alt=""
+                width="30px"
+                height="30px" /></span
+          ></a>
+          <div class="dropdown-content">
+            <a href="#">Website Development</a>
+            <a href="#">Application Development</a>
+            <a href="#">SEO Services</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- END -->
+  </body>
+</html>
